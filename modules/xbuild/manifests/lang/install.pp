@@ -1,7 +1,7 @@
 define xbuild::lang::install (
   $language   = $title,
   $version,
-  $installdir = '/usr/local',
+  $installdir = '/usr/local'
 ) {
 
   exec { "${language}-build ${version}":
