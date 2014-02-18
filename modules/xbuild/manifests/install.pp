@@ -8,5 +8,3 @@ class xbuild::install {
   }
 
 }
-
-https://github.com/tacahilo/puppet-xbuild.git
