@@ -1,6 +1,7 @@
 # == Class: xbuild
 #
 # xbuild for puppet
+# Default install directory: /usr/local/<LANG>-<VERSION>
 #
 # === Examples
 #
@@ -8,6 +9,11 @@
 # 
 # ::xbuild::lang::install { 'ruby':
 #   version => '2.1.0',
+# }
+#
+# ::xbuild::lang::install { 'python':
+#   version    => '2.1.0',
+#   installdir => '/usr/local/python/2.1.0',
 # }
 #
 # === Authors
