@@ -18,6 +18,7 @@ include ::xbuild
 }
 
 ::xbuild::lang::install { 'python':
-  version => '2.7.6',
+  version    => '2.7.6',
+  installdir => '/usr/local/python/2.7.6',
 }
 ```
